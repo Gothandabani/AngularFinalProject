@@ -1,0 +1,20 @@
+#D-Logo{    
+    height: 70px;
+    
+}
+#dLogo{
+    /* border: 3px solid rgb(30, 108, 176); */
+    width: 180px;
+    height: 105px;
+    
+    
+    
+}
+#projectTitle{
+    position: absolute;
+    left: 40%;
+    font-size: 35px;
+    color: rgb(4, 162, 235);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

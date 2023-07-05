@@ -1,0 +1,31 @@
+<div id="lBDiv" *ngIf="logIn">
+    <label for="loginPage" id="lpage">Login</label>
+   
+    <table id="ltable">
+        <tr>
+            <th>Email :</th>
+            <td><input type="text" [(ngModel)]="email"></td>
+        </tr>
+        <tr>
+            <th>Password :</th>
+            <td><input type="password" id="iPassword" [(ngModel)]="password"></td>
+        </tr>
+        <tr>
+            <td colspan=2 style="position: relative;left: 70%;top:15px;">
+                <button id="lbutton" (click)="Login()">Login</button>
+            </td>
+        </tr>
+        <tr id="nRegister">                 
+            <td colspan=2 (click)="Register()">New Registration? Click here</td>
+        </tr>
+    </table>
+    <div class="errors">{{error}}</div>
+</div>
+<app-registration *ngIf="!logIn" (LoginClick)="receiveFromChild($event)"></app-registration>
+
+    
+
+    
+           
+
+

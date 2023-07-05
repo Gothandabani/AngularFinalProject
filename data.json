@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "email": "gothandabanim@gmail.com",
+      "password": "$2a$10$OKZ24CTk/b1nn8A4ul3fd.6BV9mcVkUzeNfR4fzym2/Kh3PbUZrkG",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "type": "admin",
+      "id": 1
+    },
+    {
+      "email": "rajesh1@gmail.com",
+      "password": "$2a$10$OKZ24CTk/b1nn8A4ul3fd.6BV9mcVkUzeNfR4fzym2/Kh3PbUZrkG",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "type": "user",
+      "id": 2
+    },
+    {
+      "email": "tester@gmail.com",
+      "password": "$2a$10$HVy678gVWAwDX5dxqJ96FeaZUoXAisi9BlVJw4gOXbFOiNOO0bbeG",
+      "username": "tester",
+      "type": "user",
+      "mobno": "+1234567290",
+      "id": 3
+    }
+  ],
+  "feedbacks": [
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "Tester",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-01",
+      "id": 1
+    },
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "Software Engineer",
+      "reasonfchange": "For Package",
+      "date": "2023-07-02",
+      "id": 2
+    },
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "****************************************",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-03",
+      "id": 3
+    },
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "****************************************",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-04",
+      "id": 4
+    },
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "##########################",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-05",
+      "id": 5
+    },
+    {
+      "uid": "2",
+      "username": "rajesh1",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "Testing;",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-06",
+      "id": 6
+    },
+    {
+      "uid": "1",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "asfasfsfdf",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-05",
+      "id": 7
+    },
+    {
+      "uid": "1",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "prevemp": "DXC",
+      "designation": "senior software Engineer",
+      "reasonfchange": "For Promotion",
+      "date": "2023-07-19",
+      "id": 8
+    },
+    {
+      "uid": "3",
+      "username": "tester",
+      "mobno": "+1234567290",
+      "prevemp": "DXC",
+      "designation": "Tester tested in posting designation",
+      "reasonfchange": "For Promotion",
+      "date": "2023-06-30",
+      "id": 9
+    },
+    {
+      "uid": "3",
+      "username": "tester",
+      "mobno": "+1234567290",
+      "prevemp": "DXC",
+      "designation": "Senior Tester",
+      "reasonfchange": "For Promotion",
+      "date": "2023-06-02",
+      "id": 10
+    },
+    {
+      "uid": "1",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "designation": "Tester",
+      "reasonfchange": "For Promotion",
+      "date": "2023-06-02",
+      "id": 11
+    },
+    {
+      "uid": "1",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "feedback": "Trainee",
+      "id": 12
+    },
+    {
+      "uid": "1",
+      "username": "rajesh",
+      "mobno": "1234567890",
+      "feedback": "Tester",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<div id="menu-bar" >
+    <ul *ngFor="let x of menuItems">
+        <li><a routerLink="{{x.path}}">{{x.menu}}</a></li>    
+    </ul>    
+    <!-- <a href="/login" (click)="logout()"><img src="http://localhost:10101/logout.png" alt="DedalusLogo" id="dLogo" style="    height: 48px;border-radius: 70px 85px 97px 97px;left: 95%;position: absolute;"></a> -->
+    <!-- <a (click)="logout()" style="cursor:pointer;"> -->
+        <!-- <img src="http://localhost:10101/logout.png" (click)="logout()"class="icon-img" alt="DedalusLogo" id="dLogo" style="height: 48px;border-radius: 70px 85px 97px 97px;left: 95%;position: absolute; cursor:pointer;"/> -->
+     <!-- </a> -->
+     <a class="nav-link" href="#" (click)="logout()"><img src="http://localhost:90/logout.jpg" id="dLogo" style="height: 48px;border-radius: 70px 85px 97px 97px;left: 95%;position: absolute; cursor:pointer;"/></a>
+</div>
+<div id="arcomps" style="left: 30%;height: 50%;">
+    <router-outlet></router-outlet>
+</div>

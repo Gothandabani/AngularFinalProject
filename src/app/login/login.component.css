@@ -1,0 +1,60 @@
+#lBDiv{
+    border: 2px solid rgb(226, 220, 220);
+    width: 25%;
+    height: 400px;
+    top:22%;
+    left: 35%;
+    position: absolute;
+    background-color: rgb(248, 246, 246);
+    
+}
+
+#lpage{
+    left: 42%;
+    color: rgb(15, 129, 230);
+    font-size: 30px;
+    position: absolute;
+    top:15px;
+}
+
+#ltable{
+    top:100px;
+    position: absolute;
+}
+th{
+    text-align: left;
+    left: 20%;
+    position: relative;
+    height: 50px;
+    width: 250px;
+}
+td{
+    position: relative;
+}
+
+#lbutton{
+    background-color: rgb(30, 108, 176);
+    color: white;
+    padding: 7px 23px 6px 22px;
+    text-align: center;
+    border-color: rgb(30, 108, 176) ;
+    top: 45%;
+    cursor: pointer;
+    position: absolute;
+}
+
+#nRegister{
+    top: 190%;
+    left: 28%;
+    font-size: 17px;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+}
+.errors{
+    top:90%;
+    left :5%;
+    font-size: 15px;
+    color: red;
+    position: absolute;
+}

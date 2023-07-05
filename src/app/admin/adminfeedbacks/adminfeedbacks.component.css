@@ -1,0 +1,11 @@
+#paginator{
+    position: relative;
+    left: 29%;
+    top: 6px;
+    width: 60%;
+}
+th{
+    font-size: 15px;
+    color :rgb(241, 5, 5);
+    background-color: rgb(30, 108, 176);
+}
